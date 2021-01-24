@@ -1,0 +1,219 @@
+@import 'utilities.css';
+header{
+     /* background-color:rgb(31, 25, 25);  */
+    height: 80px;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-image: url('../images/bgii.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: 0px;
+    background-position-y: -10px; ;
+    background-color: rgb(25, 25, 31);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.container{
+    max-width: 1002px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+}
+.branding{
+    color: rgb(230, 255, 2);
+    font-size: 32px;
+    margin-top:3px;
+    text-transform: uppercase;
+}
+
+header nav .left a{
+    color: rgb(247, 132, 231);
+    text-decoration-line: none;
+    margin-right: 40px;
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    transition: all .3s;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+header nav .left a:hover{
+    color: rgb(132, 247, 166);
+    
+}
+header nav{
+    padding: 1rem 0;
+}
+header nav .branding{
+    margin-right: 3rem;
+}
+
+.a{
+    text-transform: uppercase;
+    font-family:inherit;
+    color: rgb(255, 255, 255);
+
+}
+
+    
+    .house1 img{
+        margin-top: 100px;
+        width: 300px;
+        
+    }
+    .p1{
+        border: none;
+        color: white;
+        margin-right: 24px;
+        margin-left: 40px;
+        margin-top: 80px;
+        margin-bottom: 100px;
+        font-size: 22px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .hdng{
+        color: yellow;
+        margin-top: 250px;
+        margin-bottom: 30px;
+        margin-left:270px;
+        font-family: 'Potta One', cursive;
+    }
+    .hdngb{
+        color: yellow;
+        margin-top: 100px;
+        margin-bottom: 0;
+        margin-left:600px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .gry img{
+        width: 300px;
+
+    }
+    .flex img{
+        width: 280px;
+        height: 290px;
+    }
+    .but{
+        color:black;
+        background-color: aqua;
+        width: 85px;
+        border: none;
+        height: 30px;
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-top: 15px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .but :hover{
+        background:yellow;
+        transition: .3s;
+    }
+    .right{
+        margin-left: 100px;
+}
+.hdng2{
+    color: rgb(122, 233, 236);
+    margin-left: 80px;
+    margin-top: 160px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.intro{
+    color: plum;
+    font-family: 'Poppins', sans-serif;
+}
+.int{
+    margin-left:110px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.hsd{
+ color: rgb(255, 0, 157);
+ font-family: 'Poppins', sans-serif;
+}
+.hsd a{
+    text-decoration: none;
+    color: yellow;
+    text-transform: uppercase;
+}
+.hsd a:hover{
+    color: cyan;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+    margin-top: 10px;  
+    font-family: 'Poppins', sans-serif;
+}
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color:blue;
+    color:aqua;
+    text-align: center;
+    padding: 5px 0;
+  border-radius: 6px;
+   position: absolute;
+    z-index: 1;
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  .hsd2{
+      color: rgba(73, 197, 15, 0.753);
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    }
+    .footer {
+        
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(26, 21, 21);
+        color: white;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+      }
+      .footer img{
+          width: 50px;
+
+      }
+      .footer a{
+          text-decoration: none;
+          margin-right: 230px;
+          margin-left: 80px;
+          size: 18px;
+          color: aqua;
+          text-transform: uppercase;
+          font-family: 'Poppins', sans-serif;
+      }
+      .footer a:hover{
+          color: red;
+          transition: .3s;
+
+      }
+
+    .hsd3{
+        margin-top: 18px;
+        color:rgb(255, 0, 157);
+        font-family: 'Poppins', sans-serif;
+    }
+    .flex2 img{
+        width: 180px;
+        height: 180px;
+        margin-right: 30px;
+        margin-left: 50px;
+    }
+    .right img{
+        width: 30px;
+        height: 30px;
+        margin-top: 16px;
+    }

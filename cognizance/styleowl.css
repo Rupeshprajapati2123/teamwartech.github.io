@@ -1,0 +1,36 @@
+.head{
+    margin-left: 600px ;
+    color: blueviolet;
+}
+
+    .para{
+        color:rgb(238, 171, 247);
+        margin-left: 300px;
+        margin-right: 50px;
+        font-size: 24px;
+        border: solid 1px;    
+        background-color:rgb(0,0,0,0.5);
+        border-radius: 10px;
+    }
+
+body{
+    background-color: rgb(31, 29, 29);
+    background-image: url('../images/bgii.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: 0px;
+    background-position-y: -10px; ;
+    background-color: rgb(25, 25, 31);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.but{
+    color:black;
+        background-color: aqua;
+        width: 65px;
+        border: none;
+        height: 20px;
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-left: 650px;
+}
